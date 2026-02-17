@@ -1,0 +1,6 @@
+# Use LF in repo for text files
+* text=auto eol=lf
+
+# Shell scripts must be LF (husky)
+*.sh text eol=lf
+.husky/* text eol=lf
